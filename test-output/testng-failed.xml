@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PM.TestCases.SearchTest">
+      <class name="PM.TestCases.LoginTests">
         <methods>
-          <include name="SearchFunctionality_WithInvalid_Products"/>
+          <include name="Login_with_EmptyEmail"/>
+          <include name="Login_with_InvalidPassword"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="Searchfunctionality_With_ValidProducts"/>
           <include name="stop"/>
         </methods>
-      </class> <!-- PM.TestCases.SearchTest -->
+      </class> <!-- PM.TestCases.LoginTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
